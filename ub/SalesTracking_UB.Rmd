@@ -1,0 +1,372 @@
+2---
+title: "Creating Sales Tracking Workbook"
+author: "Yi"
+output: pdf_document
+---
+
+```{r message=FALSE}
+# install libraries
+library(tidyverse)
+library(readxl)
+# setting working directory
+setwd("/Users/Yi/Downloads/UB")
+```
+
+```{r message=FALSE}
+# Method Two
+IFC1 <- length(excel_sheets("Iron Forge Cable (163) - 2021 - Amazon Sales Tracking.xlsx"))
+lst1 <- lapply(1:IFC1, function(i) read_excel("Iron Forge Cable (163) - 2021 - Amazon Sales Tracking.xlsx", sheet = i))
+
+lst1 %>%
+  map_dfr(~.[1, 2]) -> SKU_IFC1
+
+IFC2 <- length(excel_sheets("Iron Forge Cable (103 - 143) - 2021 - Amazon Sales Tracking.xlsx"))
+lst2 <- lapply(1:IFC2, function(i) read_excel("Iron Forge Cable (103 - 143) - 2021 - Amazon Sales Tracking.xlsx", sheet = i))
+
+lst2 %>%
+  map_dfr(~.[1, 2]) -> SKU_IFC2
+
+IFC3 <- length(excel_sheets("Indoor Cords - 2021 - Amazon Sales Tracking.xlsx"))
+lst3 <- lapply(1:IFC3, function(i) read_excel("Indoor Cords - 2021 - Amazon Sales Tracking.xlsx", sheet = i))
+
+lst3 %>%
+  map_dfr(~.[1, 2]) -> SKU_IFC3
+
+IFC4 <- length(excel_sheets("Specialty Indoor & Wires - 2021 - Amazon Sales Tracking.xlsx"))
+lst4 <- lapply(1:IFC4, function(i) read_excel("Specialty Indoor & Wires - 2021 - Amazon Sales Tracking.xlsx", sheet = i))
+
+lst4 %>%
+  map_dfr(~.[1, 2]) -> SKU_IFC4
+
+IFC5 <- length(excel_sheets("Specialty Outdoor - 2021 - Amazon Sales Tracking.xlsx"))
+lst5 <- lapply(1:IFC5, function(i) read_excel("Specialty Outdoor - 2021 - Amazon Sales Tracking.xlsx", sheet = i))
+
+lst5 %>%
+  map_dfr(~.[1, 2]) -> SKU_IFC5
+
+IFC6 <- length(excel_sheets("Storage & Fixtures - 2021 -Amazon Sales Tracking.xlsx"))
+lst6 <- lapply(1:IFC6, function(i) read_excel("Storage & Fixtures - 2021 -Amazon Sales Tracking.xlsx", sheet = i))
+
+lst6 %>%
+  map_dfr(~.[1, 2]) -> SKU_IFC6
+
+PP1 <- length(excel_sheets("PP Cornhole - 2021 - Amazon Sales Tracking.xlsx"))
+lst7 <- lapply(1:PP1, function(i) read_excel("PP Cornhole - 2021 - Amazon Sales Tracking.xlsx", sheet = i))
+
+lst7 %>%
+  map_dfr(~.[1, 2]) -> SKU_PP1
+
+PP2 <- length(excel_sheets("Play Platoon - 2021 - Amazon Sales Tracking.xlsx"))
+lst8 <- lapply(1:PP2, function(i) read_excel("Play Platoon - 2021 - Amazon Sales Tracking.xlsx", sheet = i))
+
+lst8 %>%
+  map_dfr(~.[1, 2]) -> SKU_PP2
+
+IL1 <- length(excel_sheets("IL Wood Items - 2021 - Amazon Sales Tracking.xlsx"))
+lst9 <- lapply(1:IL1, function(i) read_excel("IL Wood Items - 2021 - Amazon Sales Tracking.xlsx", sheet = i))
+
+lst9 %>%
+  map_dfr(~.[1, 2]) -> SKU_IL1
+
+IL2 <- length(excel_sheets("Ilyapa - 2021 - Amazon Sales Tracking.xlsx"))
+lst10 <- lapply(1:IL2, function(i) read_excel("Ilyapa - 2021 - Amazon Sales Tracking.xlsx", sheet = i))
+
+lst10 %>%
+  map_dfr(~.[1, 2]) -> SKU_IL2
+
+IL3 <- length(excel_sheets("IL Boards - 2021 - Amazon Sales Tracking.xlsx"))
+lst11 <- lapply(1:IL3, function(i) read_excel("IL Boards - 2021 - Amazon Sales Tracking.xlsx", sheet = i))
+
+lst11 %>%
+  map_dfr(~.[1, 2]) -> SKU_IL3
+
+IL4 <- length(excel_sheets("Hardware - 2021 - Amazon Sales Tracking.xlsx"))
+lst12 <- lapply(1:IL4, function(i) read_excel("Hardware - 2021 - Amazon Sales Tracking.xlsx", sheet = i))
+
+lst12 %>%
+  map_dfr(~.[1, 2]) -> SKU_IL4
+
+IL5 <- length(excel_sheets("Hinges & Door Stops - 2021 - Amazon Sales Tracking.xlsx"))
+lst13 <- lapply(1:IL5, function(i) read_excel("Hinges & Door Stops - 2021 - Amazon Sales Tracking.xlsx", sheet = i))
+
+lst13 %>%
+  map_dfr(~.[1, 2]) -> SKU_IL5
+
+IL6 <- length(excel_sheets("Knobs, Levers & Brackets - 2021 - Amazon Sales Tracking.xlsx"))
+lst14 <- lapply(1:IL6, function(i) read_excel("Knobs, Levers & Brackets - 2021 - Amazon Sales Tracking.xlsx", sheet = i))
+
+lst14 %>%
+  map_dfr(~.[1, 2]) -> SKU_IL6
+
+IL7 <- length(excel_sheets("Dinnerware - 2021 - Amazon Sale Tracking.xlsx"))
+lst15 <- lapply(1:IL7, function(i) read_excel("Dinnerware - 2021 - Amazon Sale Tracking.xlsx", sheet = i))
+
+lst15 %>%
+  map_dfr(~.[1, 2]) -> SKU_IL7
+
+PUN1 <- length(excel_sheets("Punchau - 2021 - Amazon Sales Tracking.xlsx"))
+lst16 <- lapply(1:PUN1, function(i) read_excel("Punchau - 2021 - Amazon Sales Tracking.xlsx", sheet = i))
+
+lst16 %>%
+  map_dfr(~.[1, 2]) -> SKU_PUN1
+
+IFT1 <- length(excel_sheets("Iron Forge Tools - 2021 - Amazon Sales Tracking.xlsx"))
+lst17 <- lapply(1:IFT1, function(i) read_excel("Iron Forge Tools - 2021 - Amazon Sales Tracking.xlsx", sheet = i))
+
+lst17 %>%
+  map_dfr(~.[1, 2]) -> SKU_IFT1
+
+CT1 <- length(excel_sheets("Barcaloo & Crutello - 2021 - Amazon Sales Tracking.xlsx"))
+lst18 <- lapply(1:CT1, function(i) read_excel("Barcaloo & Crutello - 2021 - Amazon Sales Tracking.xlsx", sheet = i))
+
+lst18 %>%
+  map_dfr(~.[1, 2]) -> SKU_CT1
+
+ML1 <- length(excel_sheets("Malem - 2021 - Amazon Sales Tracking.xlsx"))
+lst19 <- lapply(1:ML1, function(i) read_excel("Malem - 2021 - Amazon Sales Tracking.xlsx", sheet = i))
+
+lst19 %>%
+  map_dfr(~.[1, 2]) -> SKU_ML1
+
+DD1 <- length(excel_sheets("Dry Defender - 2021 - Amazon Sales Tracking.xlsx"))
+lst20 <- lapply(1:DD1, function(i) read_excel("Dry Defender - 2021 - Amazon Sales Tracking.xlsx", sheet = i))
+
+lst20 %>%
+  map_dfr(~.[1, 2]) -> SKU_DD1
+
+FL1 <- length(excel_sheets("Fulton Illuminations - 2021 - Amazon Sales Tracking.xlsx"))
+lst21 <- lapply(1:FL1, function(i) read_excel("Fulton Illuminations - 2021 - Amazon Sales Tracking.xlsx", sheet = i))
+
+lst21 %>%
+  map_dfr(~.[1, 2]) -> SKU_FL1
+
+IL8 <- length(excel_sheets("Cabinet Knobs - 2021 - Amazon Sales Tracking.xlsx"))
+lst22 <- lapply(1:IL8, function(i) read_excel("Cabinet Knobs - 2021 - Amazon Sales Tracking.xlsx", sheet = i))
+
+lst22 %>%
+  map_dfr(~.[1, 2]) -> SKU_IL8
+
+PP3 <- length(excel_sheets("Cornhole Accessories- 2021 - Amazon Sales Tracking.xlsx"))
+lst23 <- lapply(1:PP3, function(i) read_excel("Cornhole Accessories- 2021 - Amazon Sales Tracking.xlsx", sheet = i))
+
+lst23 %>%
+  map_dfr(~.[1, 2]) -> SKU_PP3
+
+# Join
+SKU_IFC1 %>%
+  full_join(SKU_IFC2) %>%
+  full_join(SKU_IFC3) %>%
+  full_join(SKU_IFC4) %>%
+  full_join(SKU_IFC5) %>%
+  full_join(SKU_IFC6) %>%
+  full_join(SKU_PP1) %>%
+  full_join(SKU_PP2) %>%
+  full_join(SKU_IL1) %>%
+  full_join(SKU_IL2) %>%
+  full_join(SKU_IL3) %>%
+  full_join(SKU_IL4) %>%
+  full_join(SKU_IL5) %>%
+  full_join(SKU_IL6) %>%
+  full_join(SKU_IL7) %>%
+  full_join(SKU_IL8) %>%
+  full_join(SKU_PUN1) %>%
+  full_join(SKU_IFT1) %>%
+  full_join(SKU_CT1) %>%
+  full_join(SKU_ML1) %>%
+  full_join(SKU_DD1) %>%
+  full_join(SKU_FL1) %>%
+  full_join(SKU_PP3) -> currentSKU
+
+# Export
+library("writexl")
+write_xlsx(currentSKU, "currentSKU.xlsx")
+
+```
+
+```{r message=FALSE, warning=TRUE}
+# read all reports
+AO <- read_tsv("AO.txt", quote = "", guess_max = 10000)
+BR <- read_csv("BR.csv")
+FP <- read_csv("FP.csv")
+IA <- read_csv("IA.csv")
+QTY <- read_xlsx("QTY.xlsx")
+SP <- read_xlsx("SP.xlsx")
+SD <- read_csv("SD.csv")
+SBV <- read_csv("SBV.csv")
+
+```
+
+```{r}
+# tidy QTY
+QTY %>%
+  select(SKU, Current) -> QTY
+
+```
+
+```{r message=FALSE}
+# tidy SP
+SP %>% 
+  rename("SKU" = "Advertised SKU",
+         "Seven_Day_Advertised_SKU_Units" = "7 Day Advertised SKU Units (#)",
+         "Seven_Day_Other_SKU_Units" = "7 Day Other SKU Units (#)") %>%
+  select(SKU, Spend, Seven_Day_Advertised_SKU_Units, Seven_Day_Other_SKU_Units) %>%
+  mutate(Spend = as.double(Spend),
+         Seven_Day_Advertised_SKU_Units = as.double(Seven_Day_Advertised_SKU_Units),
+         Seven_Day_Other_SKU_Units = as.double(Seven_Day_Other_SKU_Units)) %>%
+
+  group_by(SKU) %>%
+  summarise(Spend = sum(Spend), Seven_Day_Advertised_SKU_Units = sum(Seven_Day_Advertised_SKU_Units), Seven_Day_Other_SKU_Units = sum(Seven_Day_Other_SKU_Units))-> SP
+  
+```
+
+```{r message=FALSE, warning=FALSE}
+# tidy SD
+SD %>%
+  rename("Seven_Day_Advertised_SKU_Units" = "attributed_conversions_14_day_same_sku__sum", "Total_Advertised_SKU_Units" = "attributed_conversions_14_day__sum", "Spend" = "spend") %>%
+  separate(campaign__name, c("SKU", "non_SKU"), " ") %>%
+  mutate(Seven_Day_Other_SKU_Units = Total_Advertised_SKU_Units - Seven_Day_Advertised_SKU_Units) %>% 
+  select(SKU, Spend, Seven_Day_Advertised_SKU_Units, Seven_Day_Other_SKU_Units) %>%
+  mutate(Spend = as.double(Spend),
+         Seven_Day_Advertised_SKU_Units = as.double(Seven_Day_Advertised_SKU_Units),
+         Seven_Day_Other_SKU_Units = as.double(Seven_Day_Other_SKU_Units)) %>%
+
+    drop_na() %>% #drop N/A
+    group_by(SKU) %>%
+  summarise(Spend = sum(Spend), Seven_Day_Advertised_SKU_Units = sum(Seven_Day_Advertised_SKU_Units), Seven_Day_Other_SKU_Units = sum(Seven_Day_Other_SKU_Units)) -> SD
+
+#SD %>% summarise_all(funs(sum(is.na(.))))
+
+```
+
+```{r message=FALSE, warning=FALSE}
+# tidy SBV
+SBV %>%
+  rename("Seven_Day_Advertised_SKU_Units" = "attributed_conversions_14_day_same_sku__sum", "Total_Advertised_SKU_Units" = "attributed_conversions_14_day__sum", "Spend" = "spend") %>%
+  separate(campaign__name, c("SKU", "non_SKU"), " ") %>%
+  mutate(Seven_Day_Other_SKU_Units = Total_Advertised_SKU_Units - Seven_Day_Advertised_SKU_Units) %>% 
+  select(SKU, Spend, Seven_Day_Advertised_SKU_Units, Seven_Day_Other_SKU_Units) %>%
+  mutate(Spend = as.double(Spend),
+         Seven_Day_Advertised_SKU_Units = as.double(Seven_Day_Advertised_SKU_Units),
+         Seven_Day_Other_SKU_Units = as.double(Seven_Day_Other_SKU_Units)) %>%
+
+    drop_na() %>% #drop N/A
+    group_by(SKU) %>%
+  summarise(Spend = sum(Spend), Seven_Day_Advertised_SKU_Units = sum(Seven_Day_Advertised_SKU_Units), Seven_Day_Other_SKU_Units = sum(Seven_Day_Other_SKU_Units)) -> SBV
+    
+    #SBV %>% summarise_all(funs(sum(is.na(.))))
+
+```
+
+```{r}
+# combine SP, SD & SBV
+SP %>%
+  rbind(SD) %>%
+  rbind(SBV) -> AD
+
+AD %>%
+  group_by(SKU) %>%
+  summarise(Spend = sum(Spend), Seven_Day_Advertised_SKU_Units = sum(Seven_Day_Advertised_SKU_Units), Seven_Day_Other_SKU_Units = sum(Seven_Day_Other_SKU_Units))-> AD
+
+```
+
+```{r message=FALSE}
+# tidy BR
+BR %>%
+  select(SKU, Sessions) %>%
+  
+  group_by(SKU) %>%
+  summarise(Sessions = sum(Sessions)) -> BR
+
+```
+
+```{r}
+# tidy IA
+IA %>%
+  rename("SKU" = "sku",
+         "sell_through" = "sell-through") %>%
+  select(SKU, sell_through) -> IA
+
+```
+
+```{r}
+# tidy FP
+FP %>%
+  filter(is.na(currency) | currency == "USD") %>%
+  rename("SKU" = "sku", "longest_side" = "longest-side", "median_side" = "median-side", "shortest_side" = "shortest-side", "product_size_tier" = "product-size-tier", "expected_fulfillment_fee_per_unit" = "expected-fulfillment-fee-per-unit") %>%
+  select (SKU, longest_side, median_side, shortest_side, product_size_tier, expected_fulfillment_fee_per_unit) -> FP
+
+```
+
+```{r}
+# tidy AO
+AO %>% 
+  rename("SKU" = "sku", "order_status" = "order-status", "sales_channel" = "sales-channel", "item_status" = "item-status", "item_price" = "item-price", "item_promotion_discount" = "item-promotion-discount") %>%
+  filter(order_status != "Cancelled") %>%
+  filter(item_status != "Cancelled") %>%
+  filter(sales_channel == "Amazon.com" | sales_channel == "Non-Amazon") %>%
+  filter(is.na(currency) | currency == "USD") %>%
+
+  mutate(item_promotion_discount = replace_na(item_promotion_discount, 0)) %>%
+  select (SKU, sales_channel,currency, quantity, item_price, item_promotion_discount) -> AO
+
+AO %>%
+  filter(SKU == "PL-PP-BOCEB") %>%
+  group_by(SKU) %>%
+  summarise(quantity = sum(quantity))
+
+AO %>%
+  filter(sales_channel == "Non-Amazon") -> nonAMZ
+
+AO %>%
+  filter(sales_channel == "Amazon.com") -> AMZ
+
+library(dplyr)
+nonAMZ %>%
+  group_by(SKU) %>%
+  summarise(quantity = sum(quantity)) -> nonAMZ
+library(writexl)
+write_xlsx(nonAMZ, "nonAMZ.xlsx")
+
+AMZ %>%
+  group_by(SKU) %>%
+  summarise(quantity = sum(quantity), revenue = sum(item_price), coupon = sum(item_promotion_discount)) -> AMZ
+
+AMZ %>%
+  filter(SKU == "PL-PP-BOCEB") %>%
+  group_by(SKU) %>%
+  summarise(quantity = sum(quantity))
+
+library(writexl)
+write_xlsx(AMZ, "AMZ.xlsx")
+
+```
+
+```{r message=FALSE}
+# join
+allSKU <- read_excel("currentSKU.xlsx")
+
+allSKU %>%
+  left_join(QTY, key = "SKU") %>%
+  left_join(BR, key = "SKU") %>%
+  left_join(FP, key = "SKU") %>%
+  left_join(IA, key = "SKU") %>%
+  left_join(AD, key = "SKU") -> masterSalesSheet
+
+# fill na with 0
+masterSalesSheet %>%
+  mutate(Sessions = replace_na(Sessions, 0)) %>%
+  mutate(longest_side = replace_na(longest_side, 0)) %>%
+  mutate(median_side = replace_na(median_side,0)) %>%
+  mutate(shortest_side = replace_na(shortest_side, 0)) %>%
+  mutate(product_size_tier = replace_na(product_size_tier, 0)) %>%
+  mutate(expected_fulfillment_fee_per_unit = replace_na(expected_fulfillment_fee_per_unit, 0)) %>%
+  mutate(Spend = replace_na(Spend, 0)) %>%
+  mutate(Seven_Day_Advertised_SKU_Units = replace_na(Seven_Day_Advertised_SKU_Units, 0)) %>%
+  mutate(Seven_Day_Other_SKU_Units = replace_na(Seven_Day_Other_SKU_Units, 0)) -> masterSalesSheet
+
+# Export
+library("writexl")
+write_xlsx(masterSalesSheet, "masterSalesSheet.xlsx")
+
+```
+

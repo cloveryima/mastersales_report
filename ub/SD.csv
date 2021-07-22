@@ -1,0 +1,136 @@
+campaign_id,campaign__name,campaign__campaign_type,campaign__targeting_type,campaign__budget,campaign__state,campaign__label_names,date_start,date_end,attributed_units_ordered_14_day__sum,attributed_units_ordered_14_day_same_sku__sum,attributed_conversions_14_day__sum,attributed_conversions_14_day_same_sku__sum,spend
+NA82757307953262,Mail Organizer Display,sponsoredDisplay,,25.00,enabled,"Housewares,Ilyapa,Mail Organizers",07/12/2021,07/18/2021,9,,9,7,140.44
+NA155505403717468,Sand Cornhole Defense PL-PP-CH-,sponsoredDisplay,,25.00,enabled,"Corn Hole Sand,PP Corn Hole Bags Sand,Play Platoon,Toys",07/12/2021,07/18/2021,21,,21,14,138.00999999999999
+NA274864876309668,PL-IL-DH35-BK18 - Defensive Disp,sponsoredDisplay,,20.00,enabled,"Door Hinges,Hardware,Housewares",07/12/2021,07/18/2021,6,,5,4,85.159999999999997
+NA164483212915925,Kids Lawn Game Defensive,sponsoredDisplay,,15.00,enabled,"Play Platoon,Toys",07/12/2021,07/18/2021,7,,6,6,26.890000000000001
+NA63308783776547,Pro Cornhole Defense,sponsoredDisplay,,20.00,enabled,"Corn Hole Pro,Play Platoon,Toys",07/12/2021,07/18/2021,4,,4,4,17.530000000000001
+NA270368279231436,PL-PP-CHPRO2-REYE Offensive Targeting,sponsoredDisplay,,10.00,enabled,"Corn Hole Pro,Play Platoon,Toys",07/12/2021,07/18/2021,3,,3,0,16.460000000000001
+NA48617193856970,PL-IL-CABKRB-K25-A - Offensive Display,sponsoredDisplay,,20.00,enabled,"Cabinet Knobs,Hardware,Housewares",07/12/2021,07/18/2021,2,,1,0,12.43
+NA73837990060804,pool basketball offensive,sponsoredDisplay,,10.00,paused,"Play Platoon,Pool Basketball,Toys",07/12/2021,07/18/2021,0,,0,0,11.59
+NA132038793818141,Market Share - Disp - PL-IL-DH35-S18 - Offensive,sponsoredDisplay,,15.00,enabled,"Door Hinges,Hardware,Housewares",07/12/2021,07/18/2021,1,,1,1,9.7199999999999989
+NA112425560007176,PL-IL-CABKRB-S25 - Defensive SN Collection,sponsoredDisplay,,20.00,enabled,"Cabinet Knobs,Hardware,Housewares",07/12/2021,07/18/2021,2,,1,1,5.2599999999999998
+NA115763030283309,Chair Mat - Display Top ASIN,sponsoredDisplay,,10.00,enabled,"Chair Mats,Housewares,Ilyapa",07/12/2021,07/18/2021,1,,1,1,4.9299999999999997
+NA44390120819480,PL-IL-CABKRB-K25-A Defense New,sponsoredDisplay,,5.00,enabled,"Cabinet Knobs,Hardware,Housewares",07/12/2021,07/18/2021,0,,0,0,3.9500000000000002
+NA31959354673212,PL-IFC-CMB-BAMB-2PK - Product Target,sponsoredDisplay,,5.00,enabled,"Cable Management Box,Iron Forge Cable,Wire Cable Tool",07/12/2021,07/18/2021,0,,0,0,2.77
+NA260475450291864,ring toss offensive,sponsoredDisplay,,10.00,enabled,"Play Platoon,Ring Toss,Toys",07/12/2021,07/18/2021,0,,0,0,2.52
+NA207829179735065,PL-IFC-163W25P3 Defense,sponsoredDisplay,,10.00,enabled,"16-3 White,Iron Forge Cable,Wire Cable Tool",07/12/2021,07/18/2021,1,,1,1,2.4399999999999999
+NA184260302941561,Desk Mat Defense PL-IL-DM,sponsoredDisplay,,20.00,enabled,"Desk Mats,Housewares,Ilyapa",07/12/2021,07/18/2021,0,,0,0,2.2599999999999998
+NA47517209392416,Chair Mat Defense,sponsoredDisplay,,25.00,enabled,"Chair Mats,Housewares,Ilyapa",07/12/2021,07/18/2021,1,,1,0,2.1799999999999997
+NA2884609607621,PL-IFC-123Y3GFCI Defense,sponsoredDisplay,,10.00,enabled,"12-3 Yellow,Iron Forge Cable,Wire Cable Tool",07/12/2021,07/18/2021,0,,0,0,1.7
+NA137185362163576,PL-IFC-163B10PK2 Defense,sponsoredDisplay,,10.00,enabled,"16-3 Black,Iron Forge Cable,Wire Cable Tool",07/12/2021,07/18/2021,0,,0,0,1.46
+NA197040885685422,PL-IFC-AW123BL100P - Sponsored Display,sponsoredDisplay,,10.00,paused,"All Weather Cord,Iron Forge Cable,Wire Cable Tool",07/12/2021,07/18/2021,0,,0,0,1.3300000000000001
+NA123402968406719,PL-IFC-163B15 - Product Targeting,sponsoredDisplay,,5.00,paused,"16-3 Black,Iron Forge Cable,Wire Cable Tool",07/12/2021,07/18/2021,0,,0,0,1
+NA21351956550975,Storage Strap Display Defense,sponsoredDisplay,,20.00,enabled,"Iron Forge Cable,Storage Straps,Wire Cable Tool",07/12/2021,07/18/2021,0,,0,0,1
+NA24237200875705,Patio Umbrellas Display,sponsoredDisplay,,15.00,enabled,"Housewares,Patio,Umbrellas",07/12/2021,07/18/2021,0,,0,0,1
+NA168147903792864,PL-IL-CHVOF.375-ORB-50PK - Knob X-Sell,sponsoredDisplay,,10.00,enabled,"Cabinet Hinges,Hardware,Housewares",07/12/2021,07/18/2021,1,,1,0,0.67000000000000004
+NA35097946582612,PL-IL-CABKRB-B25 - Defensive ORB Collection,sponsoredDisplay,,10.00,paused,"Cabinet Knobs,Hardware,Housewares",07/12/2021,07/18/2021,0,,0,0,0.67000000000000004
+NA149075921135686,PL-IFC-CMB-BKWD-LG,sponsoredDisplay,,5.00,enabled,"Cable Management Box,Iron Forge Cable,Wire Cable Tool",07/12/2021,07/18/2021,0,,0,0,0
+NA158317152636767,PL-IFC-123Y100 Defense,sponsoredDisplay,,10.00,paused,"12-3 Yellow,Iron Forge Cable,Wire Cable Tool",07/12/2021,07/18/2021,0,,0,0,0
+NA158947458123756,Dinnerware Sets,sponsoredDisplay,,15.00,paused,"Disposables,Housewares",07/12/2021,07/18/2021,0,,0,0,0
+NA187405013040937,PL-PP-BLBGRAY4 - Product Targeting,sponsoredDisplay,,5.00,paused,"Building Bricks,Play Platoon,Toys",07/12/2021,07/18/2021,0,,0,0,0
+NA19190731094093,Pool Basketball Offensive Iso,sponsoredDisplay,,20.00,paused,"Play Platoon,Pool Basketball,Toys",07/12/2021,07/18/2021,0,,0,0,0
+NA204073727568067,PL-IFC-CMB-WTWD-LG,sponsoredDisplay,,5.00,enabled,"Cable Management Box,Iron Forge Cable,Wire Cable Tool",07/12/2021,07/18/2021,0,,0,0,0
+NA20447395698630,Offsite Remarketing (Beta),sponsoredDisplay,,3.00,paused,Overall Account,07/12/2021,07/18/2021,0,,0,0,0
+NA225476782860388,Canopy test,sponsoredDisplay,,15.00,paused,"Canopies,Housewares,Patio",07/12/2021,07/18/2021,0,,0,0,0
+NA228505738354436,DD Rodger Alarm Kit - Display,sponsoredDisplay,,20.00,paused,Discontinued,07/12/2021,07/18/2021,0,,0,0,0
+NA270023922617572,PL-IL-CABPT-SQR-S10 Display Retargetting,sponsoredDisplay,,15.00,paused,"Hardware,Housewares,Pull Handles",07/12/2021,07/18/2021,0,,0,0,0
+NA76608131362062,PL-PP-B20X20T-RBYG - Display,sponsoredDisplay,,20.00,paused,"Activity Table,Play Platoon,Toys",07/12/2021,07/18/2021,0,,0,0,0
+NA83686173097745,Adult Lawn Game Defensive,sponsoredDisplay,,15.00,enabled,"Play Platoon,Toys",07/12/2021,07/18/2021,0,,0,0,0
+NA83747538840820,PL-IFC-163CR30-A - Display,sponsoredDisplay,,20.00,paused,"Cord Reels,Iron Forge Cable,Wire Cable Tool",07/12/2021,07/18/2021,0,,0,0,0
+NA101087875956677,PL-IL-CABKRB-K25-A Offensive Targeting,sponsoredDisplay,,20.00,paused,"Cabinet Knobs,Hardware,Housewares",07/12/2021,07/18/2021,,,,,
+NA104332104134339,basketball hoop defensive and offensive,sponsoredDisplay,,10.00,paused,"Mini Basketball Hoop,Play Platoon,Toys",07/12/2021,07/18/2021,,,,,
+NA104811557190005,Sand Cornhole Bag Display Audience,sponsoredDisplay,,20.00,paused,"Corn Hole Sand,Play Platoon,Toys",07/12/2021,07/18/2021,,,,,
+NA105333892232886,PL-IL-DH35-S18 - Defensive Disp,sponsoredDisplay,,20.00,enabled,"Door Hinges,Hardware,Housewares",07/12/2021,07/18/2021,,,,,
+NA106808812650433,PL-IL-CHVO.375-SN-50PK - X-Sell,sponsoredDisplay,,10.00,paused,"Cabinet Hinges,Hardware,Housewares",07/12/2021,07/18/2021,,,,,
+NA10804721977254,step stool offensive,sponsoredDisplay,,15.00,enabled,"Play Platoon,Step Stools,Toys",07/12/2021,07/18/2021,,,,,
+NA10858187999595,PL-IL-CM36X48RW-RL Display Cobalt Test,sponsoredDisplay,,10.00,paused,"Chair Mats,Housewares,Ilyapa",07/12/2021,07/18/2021,,,,,
+NA110043679378909,PL-PP-CHPRO2-ORGY Offensive Targeting,sponsoredDisplay,,10.00,paused,"Corn Hole Pro,Play Platoon,Toys",07/12/2021,07/18/2021,,,,,
+NA110780723264215,PL-IL-MCH - Display Campaign,sponsoredDisplay,,10.00,paused,"Housewares,Ilyapa,Slate Boards",07/12/2021,07/18/2021,,,,,
+NA113235727115304,Cabinet Knobs - Defensive Display - Bronze,sponsoredDisplay,,100.00,paused,"Cabinet Knobs,Hardware,Housewares",07/12/2021,07/18/2021,,,,,
+NA114156588101912,PL-IL-MO15.5x11-GRY Defense,sponsoredDisplay,,10.00,enabled,"Housewares,Ilyapa,Mail Organizers",07/12/2021,07/18/2021,,,,,
+NA114568335874481,PL-IL-CHVOF.375-BK-50PK - X-Sell,sponsoredDisplay,,10.00,paused,"Cabinet Hinges,Hardware,Housewares",07/12/2021,07/18/2021,,,,,
+NA115722473426486,PL-IFC-163G15P - Product Targeting,sponsoredDisplay,,5.00,paused,"16-3 Green,Iron Forge Cable,Wire Cable Tool",07/12/2021,07/18/2021,,,,,
+NA118417660942263,Switches Defense Display,sponsoredDisplay,,35.00,enabled,"Iron Forge Tools,Switches Outlets,Wire Cable Tool",07/12/2021,07/18/2021,,,,,
+NA118960535428855,PL-IL-MO15.5x11 Mail Organizer Offensive Display,sponsoredDisplay,,25.00,paused,"Housewares,Ilyapa,Mail Organizers",07/12/2021,07/18/2021,,,,,
+NA120719423823445,PL-IL-CABKRB-S25 Offensive Targeting,sponsoredDisplay,,20.00,paused,"Cabinet Knobs,Hardware,Housewares",07/12/2021,07/18/2021,,,,,
+NA121262273523774,web swing - offensive,sponsoredDisplay,,15.00,paused,"Play Platoon,Swings,Toys",07/12/2021,07/18/2021,,,,,
+NA127222817507245,step stones defensive,sponsoredDisplay,,20.00,enabled,"Play Platoon,Stepping Stones,Toys",07/12/2021,07/18/2021,,,,,
+NA12731137407087,PL-IFC-123Y25 Defense,sponsoredDisplay,,10.00,paused,"12-3 Yellow,Iron Forge Cable,Wire Cable Tool",07/12/2021,07/18/2021,,,,,
+NA129417313591428,PL-PP-CH-SBBK - Display Test,sponsoredDisplay,,10.00,paused,"Corn Hole Sand,PP Corn Hole Bags Sand,Play Platoon,Toys",07/12/2021,07/18/2021,,,,,
+NA132510961762614,Menu Boards Defense,sponsoredDisplay,,30.00,paused,"Housewares,Ilyapa,Menu Boards",07/12/2021,07/18/2021,,,,,
+NA135416705164363,step stools display,sponsoredDisplay,,25.00,paused,"Play Platoon,Step Stools,Toys",07/12/2021,07/18/2021,,,,,
+NA135552043698813,PL-IL-CM59X47RW - Kuyal Target,sponsoredDisplay,,10.00,paused,"Chair Mats,Housewares,Ilyapa",07/12/2021,07/18/2021,,,,,
+NA138075717998044,golf game offensive,sponsoredDisplay,,10.00,paused,"Golf Game,Play Platoon,Stepping Stones,Toys",07/12/2021,07/18/2021,,,,,
+NA141936373985736,PL-IL-KCHB12X16 - js,sponsoredDisplay,,40.00,paused,"Chalkboards,Housewares,Ilyapa",07/12/2021,07/18/2021,,,,,
+NA142998929500592,PL-IFC-163NP50 - Product Targeting,sponsoredDisplay,,5.00,paused,"16-3 Neon Pink,Iron Forge Cable,Wire Cable Tool",07/12/2021,07/18/2021,,,,,
+NA148054777022374,PL-PP-LB17X17T-REYE - Product Targeting,sponsoredDisplay,,20.00,paused,Discontinued,07/12/2021,07/18/2021,,,,,
+NA154845780113879,PL-IFC-163NP15 - Product Targeting,sponsoredDisplay,,5.00,paused,"16-3 Neon Pink,Iron Forge Cable,Wire Cable Tool",07/12/2021,07/18/2021,,,,,
+NA155667241498998,PL-IFC-CMB-WTWD-2PK - Sponsored Display,sponsoredDisplay,,10.00,paused,"Cable Management Box,Iron Forge Cable,Wire Cable Tool",07/12/2021,07/18/2021,,,,,
+NA160899505458124,PL-PP-DICEBUC-6PK Product Target,sponsoredDisplay,,10.00,paused,"Lawn Dice,Play Platoon,Toys",07/12/2021,07/18/2021,,,,,
+NA162195881711149,Building Bricks - Offensive,sponsoredDisplay,,3.00,paused,"Building Bricks,Play Platoon,Toys",07/12/2021,07/18/2021,,,,,
+NA187605990950286,PL-PP-BLBB4 - Product Targeting,sponsoredDisplay,,5.00,paused,"Building Bricks,Play Platoon,Toys",07/12/2021,07/18/2021,,,,,
+NA193127727302108,PL-IL-CABKRB-B25 Defense New,sponsoredDisplay,,15.00,paused,"Cabinet Knobs,Hardware,Housewares",07/12/2021,07/18/2021,,,,,
+NA193705472048304,PL-IL-PTD11.5x7.5-BNW Defense,sponsoredDisplay,,10.00,paused,"Housewares,Ilyapa,Paper Towel Dispenser",07/12/2021,07/18/2021,,,,,
+NA19473635630955,PL-IL-CM30X48RW-RL - Kuyal,sponsoredDisplay,,10.00,paused,"Chair Mats,Housewares,Ilyapa",07/12/2021,07/18/2021,,,,,
+NA198859511265387,PL-IL-DH35-BK18 - Defensive - Market Share - Disp,sponsoredDisplay,,20.00,paused,"Door Hinges,Hardware,Housewares",07/12/2021,07/18/2021,,,,,
+NA200063339036217,New Cabinet Knobs Display Test,sponsoredDisplay,,25.00,paused,"Cabinet Knobs,Hardware,Housewares",07/12/2021,07/18/2021,,,,,
+NA204660050706445,Chair Mat - Display ProdTarg Test,sponsoredDisplay,,25.00,paused,"Chair Mats,Housewares,Ilyapa",07/12/2021,07/18/2021,,,,,
+NA211796596510135,PL-IL-DH35-BK18 - Offensive - Market Share - Disp,sponsoredDisplay,,5.00,paused,"Door Hinges,Hardware,Housewares",07/12/2021,07/18/2021,,,,,
+NA212786920593702,PL-IL-CABKRB-B25 Offensive Targeting,sponsoredDisplay,,20.00,paused,"Cabinet Knobs,Hardware,Housewares",07/12/2021,07/18/2021,,,,,
+NA217008441170521,Coffee Cup - DISPLAY - Product Targetting,sponsoredDisplay,,20.00,paused,Discontinued,07/12/2021,07/18/2021,,,,,
+NA218237608770924,Building Bricks - Defensive,sponsoredDisplay,,3.00,paused,"Building Bricks,Play Platoon,Toys",07/12/2021,07/18/2021,,,,,
+NA221251691431859,PL-IFC-163B06 - Defense,sponsoredDisplay,,10.00,paused,"16-3 Black,Iron Forge Cable,Wire Cable Tool",07/12/2021,07/18/2021,,,,,
+NA226826089336877,PL-IL-DH35-BK18 - Page View ProdTarg,sponsoredDisplay,,7.00,paused,"Door Hinges,Hardware,Housewares",07/12/2021,07/18/2021,,,,,
+NA229184677349237,PL-PP-CHPRO2-ORBK Offensive Targetting,sponsoredDisplay,,10.00,paused,"Corn Hole Pro,Play Platoon,Toys",07/12/2021,07/18/2021,,,,,
+NA232502896071814,J-IL-IT-33520-SFP-A Display,sponsoredDisplay,,25.00,paused,Discontinued,07/12/2021,07/18/2021,,,,,
+NA234598516781184,PL-PP-CHPRO2-HGBK Offensive Targeting,sponsoredDisplay,,10.00,paused,"Corn Hole Pro,Play Platoon,Toys",07/12/2021,07/18/2021,,,,,
+NA234633071828904,Cabinet Knobs - Defensive Display - Black,sponsoredDisplay,,100.00,paused,"Cabinet Knobs,Hardware,Housewares",07/12/2021,07/18/2021,,,,,
+NA234915342297839,PL-IL-CABKRB-K25-A - X-Sell,sponsoredDisplay,,10.00,paused,"Cabinet Knobs,Hardware,Housewares",07/12/2021,07/18/2021,,,,,
+NA240106184941116,PL-IL-CHVOF-ORB-50PK - Knob X-Sell,sponsoredDisplay,,5.00,paused,"Cabinet Hinges,Hardware,Housewares",07/12/2021,07/18/2021,,,,,
+NA240404589778438,PL-IFC-WRP-2X13-6PK - Sponsored Display,sponsoredDisplay,,3.00,paused,"Iron Forge Cable,Storage Strap,Wire Cable Tool",07/12/2021,07/18/2021,,,,,
+NA242688273598285,PL-IL-CABKRB-S25 - Offensive - Market Share - Disp,sponsoredDisplay,,5.00,paused,"Cabinet Knobs,Hardware,Housewares",07/12/2021,07/18/2021,,,,,
+NA242932183377679,Stepping Stones Offensive,sponsoredDisplay,,10.00,paused,"Play Platoon,Toys",07/12/2021,07/18/2021,,,,,
+NA245988327456160,PL-IL-CABKRB-S25 - X-Sell,sponsoredDisplay,,8.00,paused,"Cabinet Knobs,Hardware,Housewares",07/12/2021,07/18/2021,,,,,
+NA248260679775542,PL-IL-CHVOF-SN-50PK - X-Sell,sponsoredDisplay,,10.00,paused,"Cabinet Hinges,Hardware,Housewares",07/12/2021,07/18/2021,,,,,
+NA251327473242157,PL-IL-DH35-S18 - Defensive - Market Share - Disp,sponsoredDisplay,,3.00,paused,"Door Hinges,Hardware,Housewares",07/12/2021,07/18/2021,,,,,
+NA252360214002048,PL-IL-CABKRB-S25 Defense New,sponsoredDisplay,,15.00,paused,"Cabinet Knobs,Hardware,Housewares",07/12/2021,07/18/2021,,,,,
+NA253194806324791,PL-IL-DH35-B18,sponsoredDisplay,,100.00,enabled,"Door Hinges,Hardware,Housewares",07/12/2021,07/18/2021,,,,,
+NA257345706875785,Jewelry Organizer Display,sponsoredDisplay,,10.00,paused,"Housewares,Ilyapa,Jewelry Organizers",07/12/2021,07/18/2021,,,,,
+NA261538644772878,PL-PP-CHPRO2-YEGY Offensive Targeting,sponsoredDisplay,,10.00,paused,"Corn Hole Pro,Play Platoon,Toys",07/12/2021,07/18/2021,,,,,
+NA261726087830090,Standing Stool,sponsoredDisplay,,15.00,paused,"Play Platoon,Step Stools,Toys",07/12/2021,07/18/2021,,,,,
+NA263142499247433,PL-IL-CHSW-BK-50PK - X-Sell,sponsoredDisplay,,10.00,paused,"Cabinet Hinges,Hardware,Housewares",07/12/2021,07/18/2021,,,,,
+NA266436480093897,PL-PP-B20X20T-RBYG Defense,sponsoredDisplay,,10.00,enabled,"Activity Table,Play Platoon,Toys",07/12/2021,07/18/2021,,,,,
+NA266908323120726,PL-IFT-WCS-4PC - Display,sponsoredDisplay,,20.00,paused,"Iron Forge Tools,Wire Cable Tool,Wood Working",07/12/2021,07/18/2021,,,,,
+NA269065969149718,baseplate - offensive,sponsoredDisplay,,15.00,paused,"Play Platoon,Toys,building Bricks",07/12/2021,07/18/2021,,,,,
+NA269710525115067,Pool Basketball Offensive,sponsoredDisplay,,25.00,paused,"Play Platoon,Pool Basketball,Toys",07/12/2021,07/18/2021,,,,,
+NA272444417116658,PL-PP-B16X11-KNL - Product Targetting,sponsoredDisplay,,10.00,paused,Discontinued,07/12/2021,07/18/2021,,,,,
+NA27309570742096,PL-IL-CHSW-ORB-50PK - Knob X-Sell,sponsoredDisplay,,10.00,paused,"Cabinet Hinges,Hardware,Housewares",07/12/2021,07/18/2021,,,,,
+NA276412074094117,PL-IL-CABKRB-S25 - Defensive - Market Share - Disp,sponsoredDisplay,,5.00,paused,"Cabinet Knobs,Hardware,Housewares",07/12/2021,07/18/2021,,,,,
+NA277860466431362,PL-IL-MO15.5x11-BNW Defense,sponsoredDisplay,,10.00,enabled,"Housewares,Ilyapa,Mail Organizers",07/12/2021,07/18/2021,,,,,
+NA29396275795118,monitor stand - js target,sponsoredDisplay,,40.00,paused,"Housewares,Ilyapa,Monitor Stands",07/12/2021,07/18/2021,,,,,
+NA35425227000968,Chairmats - Defense,sponsoredDisplay,,30.00,paused,"Chair Mats,Housewares,Ilyapa",07/12/2021,07/18/2021,,,,,
+NA35767121300993,PL-PP-CHPRO2-HGBL Offensive Targeting,sponsoredDisplay,,10.00,paused,"Corn Hole Pro,Play Platoon,Toys",07/12/2021,07/18/2021,,,,,
+NA3681936564039,PL-IL-CM36X48RW-RL Display Test Converters,sponsoredDisplay,,20.00,paused,"Chair Mats,Housewares,Ilyapa",07/12/2021,07/18/2021,,,,,
+NA38801807281994,storage strap-offensive display,sponsoredDisplay,,20.00,paused,"Iron Forge Cable,Storage Straps,Wire Cable Tool",07/12/2021,07/18/2021,,,,,
+NA3915217328281,PL-IL-CABKRB-K25-A - Defensive BK Collection,sponsoredDisplay,,20.00,enabled,"Cabinet Knobs,Hardware,Housewares",07/12/2021,07/18/2021,,,,,
+NA43199145880576,PL-IL-CHVOF-BK-50PK - X-Sell,sponsoredDisplay,,10.00,paused,"Cabinet Hinges,Hardware,Housewares",07/12/2021,07/18/2021,,,,,
+NA46882996503476,PL-PP-CHPRO2-FLAG Offense Targeting,sponsoredDisplay,,10.00,paused,"Corn Hole Pro,Play Platoon,Toys",07/12/2021,07/18/2021,,,,,
+NA51779663074553,Cabinet Knobs - Defensive Display - Satin Nickel,sponsoredDisplay,,100.00,paused,"Cabinet Knobs,Hardware,Housewares",07/12/2021,07/18/2021,,,,,
+NA67772275701624,PL-IL-MO15.5x11-WHT defense,sponsoredDisplay,,10.00,enabled,"Housewares,Ilyapa,Mail Organizers",07/12/2021,07/18/2021,,,,,
+NA68173993107244,PL-IL-CM36X48LW-A-RL - Kuyal Target,sponsoredDisplay,,10.00,paused,"Chair Mats,Housewares,Ilyapa",07/12/2021,07/18/2021,,,,,
+NA68507614853995,Cord Straps - Sponsored Display,sponsoredDisplay,,20.00,enabled,"Iron Forge Cable,Storage Strap,Wire Cable Tool,Yi Test",07/12/2021,07/18/2021,,,,,
+NA69857929596245,PL-IL-MNTS-BNW  and WHT - SD - PT,sponsoredDisplay,,8.00,paused,Discontinued,07/12/2021,07/18/2021,,,,,
+NA7143770262916,PL-IL-CABKRB-K25-A - Defensive - Market Share - Disp,sponsoredDisplay,,3.00,paused,"Cabinet Knobs,Hardware,Housewares",07/12/2021,07/18/2021,,,,,
+NA72103179136723,PL-IFC-163B50 Defense,sponsoredDisplay,,10.00,paused,"16-3 Black,Iron Forge Cable,Wire Cable Tool",07/12/2021,07/18/2021,,,,,
+NA72187155315593,PL-IL-CABKRB-B25 - X-Sell,sponsoredDisplay,,8.00,paused,"Cabinet Knobs,Hardware,Housewares",07/12/2021,07/18/2021,,,,,
+NA72345050879042,PL-IL-CABKRB-K25-A - Offensive - Market Share - Disp,sponsoredDisplay,,3.00,paused,"Cabinet Knobs,Hardware,Housewares",07/12/2021,07/18/2021,,,,,
+NA76444161640910,PL-IL-DH35-BK18 Amazon Basics Isolated,sponsoredDisplay,,4.00,paused,"Door Hinges,Hardware,Housewares",07/12/2021,07/18/2021,,,,,
+NA76857414117296,PL-IL-CHSW-SN-50PK - X-Sell,sponsoredDisplay,,5.00,paused,"Cabinet Hinges,Hardware,Housewares",07/12/2021,07/18/2021,,,,,
+NA77950433926897,ringtoss game defensive,sponsoredDisplay,,3.00,paused,"Play Platoon,Ring Toss,Toys",07/12/2021,07/18/2021,,,,,
+NA80634835097138,PL-IL-CM36X48RW-RL - Kuyal,sponsoredDisplay,,10.00,paused,"Chair Mats,Housewares,Ilyapa",07/12/2021,07/18/2021,,,,,
+NA84178274485117,PL-IFC-CMB-BKWD-2PK - Sponsored Display,sponsoredDisplay,,10.00,enabled,"Cable Management Box,Iron Forge Cable,Wire Cable Tool",07/12/2021,07/18/2021,,,,,
+NA86989158653665,Cabinet Knob Audience Display,sponsoredDisplay,,25.00,paused,"Cabinet Knobs,Hardware,Housewares",07/12/2021,07/18/2021,,,,,
+NA8987745594150,PL-IFC-163CR30-BRK Defense,sponsoredDisplay,,10.00,paused,"Cord Reels,Iron Forge Cable,Wire Cable Tool",07/12/2021,07/18/2021,,,,,
+NA90892084386189,PL-IL-CM30X48LW-A-RL - Kuyal Target,sponsoredDisplay,,10.00,paused,"Chair Mats,Housewares,Ilyapa",07/12/2021,07/18/2021,,,,,
+NA97206330961344,PL-PP-CHPRO PRO Cornhole Defense,sponsoredDisplay,,25.00,paused,"Corn Hole Pro,Play Platoon,Toys",07/12/2021,07/18/2021,,,,,
+NA97220442877993,PL-PP-DICEBUC-6PK Defense,sponsoredDisplay,,5.00,paused,"Lawn Dice,Play Platoon,Toys",07/12/2021,07/18/2021,,,,,

@@ -1,0 +1,26 @@
+campaign_id,campaign__name,campaign__campaign_type,campaign__targeting_type,campaign__budget,campaign__state,campaign__label_names,date_start,date_end,attributed_units_ordered_14_day__sum,attributed_units_ordered_14_day_same_sku__sum,attributed_conversions_14_day__sum,attributed_conversions_14_day_same_sku__sum,spend
+NA92982520045128,PL-PP-CH-STAR - Video New2,headlineSearch,,100.00,enabled,"Corn Hole Sand,PP Corn Hole Bags Sand,Play Platoon,Toys",07/12/2021,07/18/2021,,,259,170,965.95000000000005
+NA258246771208831,PL-PP-CHPRO2-REBK  - Pro Cornhole - Video,headlineSearch,,20.00,enabled,"Corn Hole Pro,Play Platoon,Toys",07/12/2021,07/18/2021,,,51,11,185.06999999999999
+NA65448266228396,PL-PP-CH-RENB - video,headlineSearch,,100.00,enabled,,07/12/2021,07/18/2021,,,20,8,106.80000000000001
+NA250070312342514,PL-PP-PLBBALL-RE - Pool Basketball,headlineSearch,,15.00,enabled,"Play Platoon,Pool Basketball,Toys",07/12/2021,07/18/2021,,,1,1,92.939999999999984
+NA82940414806981,PL-PP-CPGOLF-3X2-2PK-A  - Golf Game - Video,headlineSearch,,10.00,enabled,"Corn Hole Sand,Golf Game,PP Corn Hole Bags Sand,Play Platoon,Toys",07/12/2021,07/18/2021,,,1,1,43.929999999999993
+NA98205236284156,PL-IFT-PTOL-NAT  - Power Tool Organizers - Sponsored Brand Video,headlineSearch,,4.00,enabled,"Corn Hole Sand,Iron Forge Tools,PP Corn Hole Bags Sand,Play Platoon,Tool Organizer,Toys,Wire Cable Tool",07/12/2021,07/18/2021,,,2,2,26.380000000000003
+NA60139429860249,PL-PP-RINGTOSS - video,headlineSearch,,5.00,enabled,"Play Platoon,Ring Toss,Toys",07/12/2021,07/18/2021,,,3,3,25.949999999999999
+NA150162498038588,PL-PP-S40WEB-B  - Web Swing - video,headlineSearch,,15.00,enabled,"Play Platoon,Swings,Toys",07/12/2021,07/18/2021,,,0,0,9.129999999999999
+NA234384827103125,PL-IL-CABKRB-K25-A - SBV,headlineSearch,,15.00,enabled,"Cabinet Knobs,Hardware,Housewares",07/12/2021,07/18/2021,,,2,0,3.8400000000000003
+NA120514100915453,PL-IFT-TK-39PNK - Video,headlineSearch,,30.00,paused,"Iron Forge Tools,Tool Kits,Wire Cable Tool",07/12/2021,07/18/2021,,,0,0,0
+NA146857293806858,PL-IL-LVR-PRV-CO-SN-10PK - SBV,headlineSearch,,5.00,paused,"Door Levers,Hardware,Housewares",07/12/2021,07/18/2021,,,0,0,0
+NA170912397848628,PL-PP-CHPRO2-FLAG  - Pro Cornhole Video Flag Top Terms,headlineSearch,,30.00,paused,"Corn Hole Pro,Play Platoon,Step Stools,Toys",07/12/2021,07/18/2021,,,0,0,0
+NA203241366816678,PL-PP-LIMBO - Video,headlineSearch,,5.00,paused,"Limbo,Play Platoon,Toys",07/12/2021,07/18/2021,,,0,0,0
+NA21498258166045,PL-PP-CH-REBL - Cornhole Video Isolation,headlineSearch,,30.00,paused,"Corn Hole Sand,PP Corn Hole Bags Sand,Play Platoon,Toys",07/12/2021,07/18/2021,,,0,0,0
+NA220200833585297,PL-PP-CH-ORBK-B - Video Isolation - Cornhole Bags,headlineSearch,,25.00,paused,"Corn Hole Sand,PP Corn Hole Bags Sand,Play Platoon,Toys",07/12/2021,07/18/2021,,,0,0,0
+NA227169955949914,PL-PP-CH-STAR - Video New,headlineSearch,,25.00,paused,"Corn Hole Sand,PP Corn Hole Bags Sand,Play Platoon,Toys",07/12/2021,07/18/2021,,,0,0,0
+NA22893139788437,PL-PP-CH-REBL - Cornhole - Video June 2021,headlineSearch,,200.00,paused,"Corn Hole Sand,PP Corn Hole Bags Sand,Play Platoon,Toys",07/12/2021,07/18/2021,,,0,0,0
+NA259631518454373,PL-PP-CH-STAR - Video - Old,headlineSearch,,25.00,paused,"Corn Hole Sand,PP Corn Hole Bags Sand,Play Platoon,Toys",07/12/2021,07/18/2021,,,0,0,0
+NA273935513254604,PL-PUN-CANW-S -Canopy White Video,headlineSearch,,20.00,paused,"Canopies,Housewares,Patio",07/12/2021,07/18/2021,,,0,0,0
+NA35570656027942,PL-IFC-WRP-2X26-2PK - Sponsored Video,headlineSearch,,10.00,paused,"Iron Forge Cable,Storage Strap,Wire Cable Tool",07/12/2021,07/18/2021,,,0,0,0
+NA42948073401797,PL-IFC-ELR-WH-10PK - Video,headlineSearch,,15.00,paused,"Iron Forge Cable,Wall Outlet,Wire Cable Tool",07/12/2021,07/18/2021,,,0,0,0
+NA46642174558815,PL-IFC-163CR30-BRK - Video,headlineSearch,,10.00,paused,"Cord Reels,Iron Forge Cable,Wire Cable Tool",07/12/2021,07/18/2021,,,0,0,0
+NA47375519313612,PL-PP-CH-STAR - Cornhole - Video,headlineSearch,,200.00,paused,PP Corn Hole Bags Sand,07/12/2021,07/18/2021,,,0,0,0
+NA6991743831619,PL-PP-CH-STAR,headlineSearch,,30.00,paused,"Corn Hole Sand,PP Corn Hole Bags Sand,Play Platoon,Toys",07/12/2021,07/18/2021,,,0,0,0
+NA82618049076427,PL-IL-CM30X48RW-RL - SB Video Test,headlineSearch,,5.00,paused,"Chair Mats,Corn Hole Sand,Housewares,Ilyapa,PP Corn Hole Bags Sand,Play Platoon,Toys",07/12/2021,07/18/2021,,,0,0,0
